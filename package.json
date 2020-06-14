@@ -13,11 +13,13 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "superagent": "^5.2.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.0.1",
+    "nock": "^12.0.3",
     "nyc": "^15.1.0",
     "supertest": "^4.0.2"
   }
