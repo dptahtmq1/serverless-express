@@ -1,5 +1,5 @@
 async function authenticate(req, res, next) {
-  const token = req.headers['authorization'] || '';
+  const token = req.headers['authorization'] || req.headers['Authorization'] || '';
 
   try {
     await verify(token);
