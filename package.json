@@ -8,12 +8,14 @@
     "coverage": "nyc --reporter=html --reporter=text mocha --exit --timeout 15000"
   },
   "dependencies": {
+    "aws-serverless-express": "^3.3.8",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11",
+    "serverless": "^1.73.1",
     "superagent": "^5.2.2"
   },
   "devDependencies": {

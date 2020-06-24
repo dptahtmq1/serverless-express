@@ -1,0 +1,20 @@
+service: serverless-express-lambda
+
+frameworkVersion: ">=1.2.0 <2.0.0"
+
+custom:
+  config: ${file(./config.json)}
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  timeout: 30
+  region: ${self:custom.config.region}
+
+functions:
+  build:
+    handler: lambda.handler
+    events:
+      - http:
+          path: users
+          method: get
