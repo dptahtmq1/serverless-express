@@ -15,7 +15,7 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11",
-    "serverless": "^1.73.1",
+    "serverless": "^3.25.1",
     "superagent": "^5.2.2"
   },
   "devDependencies": {
